@@ -26,6 +26,10 @@ nav .icons button {
   background: none;
   border-style: none;
 }
+nav .icons svg {
+  width: 36px;
+  height: 36px;
+}
 
 article {
   width: auto;
@@ -44,6 +48,7 @@ article .impact-section {
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 25px;
+  padding-right: 400px;
   padding-top: 50px;
 }
 article h1 {
@@ -218,7 +223,6 @@ section .furniture .product-card {
 
 .footer {
   background-color: #FA9500;
-  width: 100%;
   height: auto;
   padding: 40px;
   color: white;

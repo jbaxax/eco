@@ -44,6 +44,11 @@ nav {
         display: flex;
         gap: 15px;
         @include buttonStyle;
+
+        svg{
+            width: 36px;
+            height: 36px;
+        }
     }
 }
 
@@ -58,8 +63,9 @@ article {
     .impact-section {
         @include flexCenter(column, space-evenly, flex-start);
         gap: 25px;
-
+        padding-right: 400px;
         padding-top: 50px;
+       
     }
 
     h1 {
@@ -86,11 +92,14 @@ article {
             transform: scale(1.1);
         }
     }
-
-    img {
-        width: 25vw;
-        border-radius: 19px;
-    }
+    
+        img {
+            width: 25vw;
+            border-radius: 19px;
+            
+        }
+    
+   
 }
 
 section {
@@ -255,8 +264,7 @@ section {
 
 .footer {
     $background: #FA9500;
-    background-color: $background ;
-    width: 100%;
+    background-color: $background;
     height: auto;
     padding: 40px;
     color: white;

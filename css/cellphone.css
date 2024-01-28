@@ -1,0 +1,87 @@
+nav p {
+  font-size: 1.4em;
+  padding-right: 3px;
+}
+nav .icons {
+  gap: 0;
+}
+nav .icons svg {
+  width: 27px;
+  height: 27px;
+}
+
+article {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+article .impact-section {
+  padding-right: 0;
+}
+article .impact-section h1 {
+  font-size: 1.75em;
+  margin-bottom: -10px;
+}
+article .impact-section p {
+  font-size: 1em;
+}
+article .impact-section button {
+  width: 35vw;
+  align-self: center;
+}
+article .image-section {
+  text-align: center;
+}
+article .image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-section .healthcare .card-section, .product-section .furniture .card-section {
+  width: 100%;
+  flex-wrap: nowrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  display: flex;
+  justify-content: start;
+}
+.product-section .healthcare .card-section .product-card, .product-section .furniture .card-section .product-card {
+  min-width: 130px;
+  max-width: 400px;
+  height: auto;
+}
+.product-section .healthcare .card-section .product-card .product-image img, .product-section .furniture .card-section .product-card .product-image img {
+  width: 100%;
+}
+
+.about-us .mission-section {
+  flex-direction: column;
+  gap: 50px;
+}
+.about-us .mission-section .earth, .about-us .mission-section .innovation {
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  gap: 0px;
+}
+.about-us .mission-section .earth img, .about-us .mission-section .innovation img {
+  align-self: center;
+  width: 30vw;
+  padding-bottom: 50;
+}
+.gallery .gallery-images {
+  flex-direction: column;
+  gap: 30px;
+}
+.gallery .gallery-images img {
+  width: 60vw;
+}
+
+.location .map img {
+  width: 90vw;
+}/*# sourceMappingURL=cellphone.css.map */
